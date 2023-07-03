@@ -1,0 +1,25 @@
+.banner {
+  background-color: #333;
+  padding: 40px 0;
+}
+
+.banner img {
+  width: 200px; /* Adjust the size as needed */
+  height: 200px; /* Adjust the size as needed */
+}
+
+.banner h1 {
+  font-size: 36px;
+  font-weight: bold;
+  color: #fff;
+}
+
+.banner p {
+  font-size: 18px;
+  color: #ccc;
+}
+
+.banner button {
+  font-size: 16px;
+  color:
+}
