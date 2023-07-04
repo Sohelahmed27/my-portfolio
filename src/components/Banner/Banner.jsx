@@ -1,7 +1,10 @@
 import resumePDF from "../../assets/resume.pdf";
-import Img1 from "../../assets/PORT 1.png";
+// import Img1 from "../../assets/PORT 1.png";
 import "./Banner.css";
 import { Typewriter } from "react-simple-typewriter";
+import AnimateData from '../../assets/63487-programming-computer.json';
+import Lottie from "lottie-react";
+
 
 const Banner = () => {
   const handleDownloadResume = () => {
@@ -21,7 +24,7 @@ const Banner = () => {
               loop={true}
               cursor
               cursorStyle="|"
-              color="blue"
+            
             />
             
           </h1>
@@ -35,13 +38,16 @@ const Banner = () => {
             Download Resume
           </button>
         </div>
+      
         <div className="w-full md:w-1/2 mt-6 md:mt-0">
-          <img
+        <Lottie animationData={AnimateData}></Lottie>
+          {/* <img
             src={Img1}
             alt="Profile"
             className="rounded-full h-auto max-w-full"
-          />
+          /> */}
         </div>
+        
       </div>
     </section>
   );
